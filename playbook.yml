@@ -1,0 +1,9 @@
+---
+- name: Install web server for FEDORA
+  hosts: webserver
+  become: true
+
+  roles:
+    - webserver
+
+
